@@ -1,7 +1,14 @@
+import { HeaderContainer } from "./styles";
+
 export const Header = () => {
   return (
-    <div>
-      <header>Header</header>
-    </div>
+    <HeaderContainer>
+      <span>Logo</span>
+      <nav>
+        <img src="" alt="" />
+        <a href="">Timer</a>
+        <a href="">History</a>
+      </nav>
+    </HeaderContainer>
   );
 };
