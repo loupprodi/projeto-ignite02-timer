@@ -26,6 +26,7 @@ react-hook-form para a criação do formulario junto com o zod e tratamento de d
   -yarn install || yarn
   -yarn run dev
   -npm add react-router-dom
+  -npm i @types/styled-components -D
   -npm install --save @types/react-router-dom
   
   Obs: Em caso de duvida veja o script no package.json
