@@ -14,6 +14,7 @@ criação de enums para as actions do useReducer para desacoplação de metodos.
 - [x] Adicionado o styled-components
 - [x] Adicionado o phosphor-react
 - [x] Adicionado o react-hook-form
+- [x] Adicionado o datefns
 - [x] Adicionado o immer
 
 ## Pré-requisitos
