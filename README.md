@@ -4,8 +4,7 @@ projeto 02 com typescript, com fins didaticos pela plataforma ignite
 ## Sobre o projeto
 
 Este projeto foi desenvolvido com finalidade didaticas criando um timer para tarefas e salvando históricos, esse projeto possuí uma arquitetura simples, foi adicionado
-react-hook-form para a criação do formulario junto com o zod e tratamento de datas usando o date-fns. Foi usado contexto para passar os dados entre os componentes, otimização do useState pelo useReducer(entendo a respeito do dispatch o seu uso com as actions(patterns)), 
-criação de enums para as actions do useReducer para desacoplação de metodos.
+react-hook-form para a criação do formulario junto com o zod e tratamento de datas usando o date-fns. Foi usado contexto para passar os dados entre os componentes, otimização do useState pelo useReducer(entendo a respeito do dispatch o seu uso com as actions(patterns)), utilização do immer no lugar do map em relação imutabilidade dos estados e criação de enums para as actions do useReducer para desacoplação de metodos.
 
 ### Features
 
@@ -38,6 +37,7 @@ bibliotecas usadas:
 -biblioteca de formulario
 -[zod](https://date-fns.org/)
 -[react-use-form](https://react-hook-form.com/)
+-[immer](https://immerjs.github.io/immer/)
 
 - biblioteca de data
 -[datefns](https://date-fns.org/)
