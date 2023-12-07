@@ -26,7 +26,7 @@ import { CyclesContext } from "../../contexts/CyclesContext";
  */
 
 export const Home = () => {
-  const { activeCycle, activeCycleId, createNewCycle, interruptCurrentCycle } =
+  const { activeCycle, createNewCycle, interruptCurrentCycle } =
     useContext(CyclesContext);
 
   const newCycleFormValidationSchema = zod.object({
